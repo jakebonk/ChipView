@@ -24,6 +24,7 @@ public abstract class ChipAdapter {
         this.chipView = chipView;
     }
 
+
     public void refresh(){
         chipView.notifyDataSetChanged();
     }

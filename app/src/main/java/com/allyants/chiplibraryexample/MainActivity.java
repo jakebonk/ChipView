@@ -16,9 +16,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ChipView cvTag = (ChipView)findViewById(R.id.cvTag);
         ArrayList<Object> data = new ArrayList<>();
-        data.add("Jacob Bonk");
-        data.add("Billy Bonk");
-        data.add("Edward Bonk");
+        data.add("First Item");
+        data.add("Second Item");
+        data.add("Third Item");
+        data.add("Fourth Item");
+        data.add("Fifth Item");
+        data.add("Sixth Item");
+        data.add("Seventh Item");
         SimpleChipAdapter adapter = new SimpleChipAdapter(data);
         cvTag.setAdapter(adapter);
     }
