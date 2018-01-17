@@ -21,6 +21,7 @@ public class ChipView extends RelativeLayout{
     private EditText etSearch;
     private ListView lvList;
     private ChipAdapter adapter;
+    private SimpleSearchAdapter simpleSearchAdapter;
 
     public ChipView(Context context) {
         super(context);
@@ -42,7 +43,7 @@ public class ChipView extends RelativeLayout{
     public void setAdapter(ChipAdapter adapter){
         this.adapter = adapter;
         adapter.setChipView(this);
-        final SimpleSearchAdapter simpleSearchAdapter = new SimpleSearchAdapter(getContext(),adapter);
+        simpleSearchAdapter = new SimpleSearchAdapter(getContext(),adapter);
         lvList.setAdapter(simpleSearchAdapter);
         etSearch.addTextChangedListener(new TextWatcher() {
             @Override
@@ -64,6 +65,7 @@ public class ChipView extends RelativeLayout{
 
     public void notifyDataSetChanged(){
         refreshFlexbox();
+        simpleSearchAdapter.notifyDataSetChanged();
     }
 
     private void refreshFlexbox(){
