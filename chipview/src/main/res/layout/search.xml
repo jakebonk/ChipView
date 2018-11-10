@@ -7,5 +7,9 @@
         android:id="@+id/cbCheck"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Jacob Bonk" />
+        android:text="Jacob Bonk"
+        android:textColor="#999999"
+        android:buttonTint="#999999"
+        />
+
 </LinearLayout>

@@ -14,12 +14,17 @@
 
         <EditText
             android:id="@+id/etSearch"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:ems="10"
-            android:hint="Search...    "
-            android:inputType="textPersonName" />
+            android:hint="Enter your skills...."
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorRegisterText"
+            android:textColorHint="@color/colorRegisterHint"
+            android:background="@color/colorRegisterView"
+            android:elevation="9dp"
+            />
 
     </com.google.android.flexbox.FlexboxLayout>
 
