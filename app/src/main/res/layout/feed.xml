@@ -1,0 +1,87 @@
+
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="54dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="112.8dp"
+            android:background="@drawable/ic_account_circle_black_24dp"
+            android:elevation="2dp" />
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37.2dp">
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="450dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rectangle" />
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:text="Project Title"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/colorRegisterHint"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="280dp"
+                android:layout_height="290dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="90dp"
+                android:text="Description...."
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:background="@color/colorRegisterHint"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="390dp"
+                android:text="Skills: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="390dp"
+                android:textSize="18sp"
+                android:background="@color/colorRegisterHint"/>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

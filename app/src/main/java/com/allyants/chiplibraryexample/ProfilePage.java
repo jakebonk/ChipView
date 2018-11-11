@@ -22,7 +22,6 @@ import org.w3c.dom.Text;
 
 import java.io.IOException;
 
-import io.github.mthli.knife.KnifeText;
 
 public class ProfilePage extends AppCompatActivity {
 
@@ -187,8 +186,6 @@ public class ProfilePage extends AppCompatActivity {
 
                 ideas.setBackgroundColor(Color.parseColor("#999999"));
 
-                final TextView textView = (TextView)findViewById(R.id.text);
-                textView.setText(null);
 
                 // Layout inflater
                 LayoutInflater layoutInflater = getLayoutInflater();
