@@ -1,19 +1,7 @@
-
-
-<ScrollView
-    android:id="@+id/scroll"
-    android:layout_width="match_parent"
+<RelativeLayout android:id="@+id/r1"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="54dp"
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <RelativeLayout
-        android:id="@+id/r1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        >
 
         <ImageView
             android:layout_width="75dp"
@@ -35,6 +23,7 @@
             <ImageView
                 android:layout_width="300dp"
                 android:layout_height="450dp"
+                android:layout_marginBottom="20dp"
                 android:layout_alignParentTop="true"
                 android:background="@drawable/rectangle" />
 
@@ -84,4 +73,3 @@
 
         </RelativeLayout>
     </RelativeLayout>
-</ScrollView>

@@ -6,14 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:background="@color/colorRegisterHint"/>
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/ic_more_vert_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:id="@+id/nav"
+        >
+    </RelativeLayout>
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="45dp">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/r2"
+        android:orientation="vertical"
         >
 
+    </LinearLayout>
 
-    </RelativeLayout>
+</ScrollView>
+
+
 
 </android.support.constraint.ConstraintLayout>
