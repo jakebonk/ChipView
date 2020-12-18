@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChipLibraryExample.iml" filepath="$PROJECT_DIR$/ChipLibraryExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chipview/chipview.iml" filepath="$PROJECT_DIR$/chipview/chipview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChipView.iml" filepath="$PROJECT_DIR$/.idea/modules/ChipView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ChipView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ChipView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chipview/ChipView.chipview.iml" filepath="$PROJECT_DIR$/.idea/modules/chipview/ChipView.chipview.iml" />
     </modules>
   </component>
 </project>
